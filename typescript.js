@@ -5,7 +5,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('😎')
+typewriter.typeString('<p>&#128526;</p>')
     .pauseFor(2500)
     .deleteChars(2)
     .typeString(':D')
