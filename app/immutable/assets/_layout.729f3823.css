@@ -64,5 +64,15 @@ img{
     color: black;
 }
 
+.btnMyColor {
+    background-color: rgb(2, 81, 2);
+    color: white;
+    border: 1px solid white;
+}
+.btnMyColor:hover {
+    background-color: white;
+    color: rgb(2, 81, 2)
+}
+
 
 
