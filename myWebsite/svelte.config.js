@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const dev = process.argv.includes('dev');
+//const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,18 +10,23 @@ const config = {
 	//preprocess: vitePreprocess(),
 
 	kit: {
+		appDir: 'app',
 		adapter: adapter({
 			pages: 'build',
 			assets : 'build',
-			fallback: '/'
+			fallback: null
 		}),
-		prerender: { entries: [] }
+		
 	},
 
 	trailingSlash: 'always',
         paths: {
-			base: dev ? '' : '/matthiaskroiss.github.io',
-        }
+			base: '/matthiaskroiss.github.io',
+        },
+
+	
+
+
 };
 
 export default config;

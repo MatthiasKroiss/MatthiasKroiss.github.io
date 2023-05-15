@@ -18,15 +18,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="news" id="news">News</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							Kontakt
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="contactDropdown">
-							<li><a class="dropdown-item" href="locationMap">Lageplan</a></li>
-							<li><a class="dropdown-item" href="contactform">Kontaktformular</a></li>
-						</ul>
-					</li>
+			
+							<li><a class="nav-link" href="contactform">Kontaktformular</a></li>
+			
 				</ul>
 				</div>
 				</div>

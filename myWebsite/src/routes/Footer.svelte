@@ -15,19 +15,14 @@
    <h5>Allgemeines</h5>
    <ul class="nav flex-column">
        <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-muted">Home</a></li>
-       <li class="nav-item mb-2"><a href="products." class="nav-link p-0 text-muted">Produkte</a></li>
-       <li class="nav-item mb-2"><a href="news." class="nav-link p-0 text-muted">News</a></li>
-       <li class="nav-item mb-2"><a href="loginForm." class="nav-link p-0 text-muted">Login</a></li>
+       <li class="nav-item mb-2"><a href="news" class="nav-link p-0 text-muted">News</a></li>
    </ul>
 </div>
 
 <div class="col">
-   <h5>Support</h5>
+   <h5>Kontakt  </h5>
    <ul class="nav flex-column">
-       <li class="nav-item mb-2"><a href="locationMap." class="nav-link p-0 text-muted">Lageplan</a></li>
-       <li class="nav-item mb-2"><a href="contactform" class="nav-link p-0 text-muted">Kontaktformular</a>
-       </li>
-       <li class="nav-item mb-2"><a href="support." class="nav-link p-0 text-muted">Support</a></li>
+       <li class="nav-item mb-2"><a href="contactform" class="nav-link p-0 text-muted">Kontaktformular</a></li>
    </ul>
 </div>
 
